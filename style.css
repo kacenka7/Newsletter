@@ -56,11 +56,11 @@
     transform: scale(0.9);
   }
   
-  input:not([type="radio"]):not([type="checkbox"]),
+  /*input:not([type="radio"]):not([type="checkbox"]),
   select,
   textarea {
     border: 1px solid gray;
-  }
+  }*/
   
   .field input:not([type="radio"]):not([type="checkbox"]),
   .field select,

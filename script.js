@@ -3,11 +3,11 @@ const elForm = document.querySelector("#registrace")
 
 elForm.addEventListener("input", (event) => {
 
-    const pole = document.querySelector(".field")
+    const pole = document.querySelector("input")
     const email = document.querySelector("#email")
 
 
-    if(event.target.value.length > 1 || (email.value.includes("@"))) {
+    if(event.target.value.length > 1 && (email.value.includes("@"))) {
     pole.classList.remove("ramecek")
     
     }
